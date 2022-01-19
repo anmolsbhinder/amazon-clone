@@ -15,6 +15,13 @@ function Header() {
         <img className="header_logo" src={logo} />
       </Link>
 
+      <div className="header_location">
+        <img
+          className="india"
+          src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png"
+        />
+      </div>
+
       <div className="header_search">
         <input className="header_searchInput" type="text" />
         <SearchIcon className="header_searchIcon" />
