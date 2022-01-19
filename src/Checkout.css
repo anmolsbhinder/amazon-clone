@@ -1,0 +1,35 @@
+.checkout {
+  display: flex;
+  padding: 25px;
+}
+
+.gimic {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: tomato;
+}
+
+.checkout_left {
+  background-color: white;
+  width: 100%;
+  margin-left: -8px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.checkout_right {
+  margin-left: 20px;
+  margin-right: -5px;
+}
+
+.checkout_title {
+  margin-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 2px;
+  border-bottom: 1px solid lightgray;
+  font-weight: 500;
+  font-size: 28px;
+}
