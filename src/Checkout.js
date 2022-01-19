@@ -9,8 +9,9 @@ function Checkout() {
       <div className="checkout_left">
         <img className="checkout_ad" src="" />
 
-        <div>
-          <h2 className="checkout_title">Shopping Cart</h2>
+        <div className="check_title">
+          <p className="checkout_title">Shopping Cart</p>
+          <p className="price_title">Price</p>
         </div>
       </div>
 

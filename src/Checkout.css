@@ -26,10 +26,23 @@
 }
 
 .checkout_title {
+  font-weight: 500;
+  font-size: 28px;
+  align-self: flex-start;
+  margin-top: 5px;
+}
+
+.price_title {
+  font-weight: normal;
+  align-self: flex-end;
+  margin-top: -17px;
+}
+
+.check_title {
+  display: flex;
+  flex-direction: column;
   margin-right: 10px;
   padding-bottom: 10px;
   padding-top: 2px;
   border-bottom: 1px solid lightgray;
-  font-weight: 500;
-  font-size: 28px;
 }

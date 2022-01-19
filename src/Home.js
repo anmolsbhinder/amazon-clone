@@ -15,14 +15,14 @@ function Home() {
         <div className="home_row">
           <Product
             title="Mi 4K Ultra HD Android Smart LED TV | L43M4-4AIN(Black)"
-            price="29,499"
+            price={29499}
             image="https://m.media-amazon.com/images/I/612oGaxp3DS._SL1188_.jpg"
             rating={5}
           />
 
           <Product
             title="Mi 4K Ultra HD Android Smart LED TV | L43M4-4AIN(Black)"
-            price="29,499"
+            price={29499}
             image="https://m.media-amazon.com/images/I/612oGaxp3DS._SL1188_.jpg"
             rating={5}
           />
@@ -44,7 +44,7 @@ function Home() {
           <Product
             image="https://m.media-amazon.com/images/I/71j3bPnm+UL._SL1500_.jpg"
             title="Sony Alpha ILCE-7M3K Full-Frame 24.2MP Mirrorless Digital SLR Camera"
-            price="1,72,000"
+            price={172000}
             rating={4}
           />
         </div>
