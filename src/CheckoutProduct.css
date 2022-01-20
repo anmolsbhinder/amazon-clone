@@ -1,0 +1,38 @@
+.checkoutProduct {
+  display: flex;
+  padding: 20px;
+  margin-right: 10px;
+  border-bottom: 1px solid lightgray;
+  width: 95%;
+}
+
+.checkoutProduct_image {
+  width: 20%;
+  margin-right: 30px;
+}
+
+.rat {
+  display: flex;
+  margin-top: 2px;
+}
+
+.checkoutProduct_info {
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  font-weight: 500;
+  /* background-color: aqua; */
+}
+
+.checkoutProduct_info > button {
+  margin-top: auto;
+  width: 100px;
+  background-color: rgb(255, 214, 101);
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.checkoutProduct_price {
+  align-self: flex-end;
+}
