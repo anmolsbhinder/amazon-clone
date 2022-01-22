@@ -1,9 +1,8 @@
 .checkoutProduct {
   display: flex;
   padding: 20px;
-  margin-right: 10px;
   border-bottom: 1px solid lightgray;
-  width: 95%;
+  justify-content: space-between;
 }
 
 .checkoutProduct_image {
@@ -21,6 +20,7 @@
   flex-direction: column;
   font-size: large;
   font-weight: 500;
+  flex: 2;
   /* background-color: aqua; */
 }
 
@@ -34,5 +34,6 @@
 }
 
 .checkoutProduct_price {
-  align-self: flex-end;
+  margin-right: -10px;
+  font-size: 18px;
 }
